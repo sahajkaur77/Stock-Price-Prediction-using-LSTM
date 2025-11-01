@@ -14,21 +14,8 @@ Saves trained model and scaler for future use
 Visualizes actual vs predicted stock prices in an interactive graph
 
 🧠 Project Structure
-AINN_project/
-│
-├── src/
-│   ├── fetch_data.py        # Downloads stock data using yfinance
-│   ├── data_prep.py         # Cleans and preprocesses data
-│   ├── model.py             # Defines and compiles the LSTM model
-│   ├── train.py             # Trains the model and saves it
-│   ├── predict.py           # Loads model to predict future prices
-│   ├── visualize.py         # Plots actual vs predicted prices
-│
-├── saved/
-│   ├── stock_model.h5       # Trained LSTM model (generated after training)
-│   ├── scaler.pkl           # Saved scaler for future predictions
-│
-└── README.md
+Stock price prediction/
+<img width="781" height="519" alt="image" src="https://github.com/user-attachments/assets/8af9e939-55a0-4df8-940a-6f8ee4480eab" />
 
 ⚙️ Installation
 1️⃣ Clone the repository
